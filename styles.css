@@ -1,0 +1,35 @@
+/* Estilo para o container da surpresa */
+#conteudoSurpresa {
+    text-align: center; /* Centraliza a foto e o texto */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px; /* Largura máxima do quadrado */
+    margin: 20px auto; /* Centraliza na tela */
+}
+
+/* Estilo para a imagem */
+#minhaFoto {
+    width: 100%; /* A foto ocupa 100% do espaço do container */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilo para a frase */
+#minhaFrase {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #35424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
